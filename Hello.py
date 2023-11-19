@@ -13,8 +13,7 @@ def main():
     st.markdown(
         """
         Our VITON experience helps you try on clothing from the comfort of your home, with just a few clicks! Upload your reference image of yourself, upload a garment and see how it looks on you!
-    """
-    )
+    """)
 
     st.sidebar.header("Upload Images")
     uploaded_user_image = st.sidebar.file_uploader("Upload User Picture", type=["png", "jpg", "jpeg"])
